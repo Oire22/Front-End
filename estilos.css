@@ -1,0 +1,26 @@
+header{
+    background-color: blue;
+
+}
+
+header h4{
+    padding-left: 20px;
+}
+
+#logInOut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+#banner {
+    margin: 5px;
+    border: solid 2px black;
+}
+
+footer{
+    background-color: blue;
+   
+}
