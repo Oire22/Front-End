@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 
 body{
     width: 100%;
@@ -40,14 +44,20 @@ header h4{
     padding-bottom: 10px;
 }
 
-#banner img{
-    margin: 5px;
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding: 5px;
-    width: 1336px
-    
+.container {
+    width: 100vw;
+    max-width: 1336px;
+    min-width: 320px;
+    margin: auto;
 }
+
+.container img{
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+
 
 #AcercaDe{
     margin:15px;
