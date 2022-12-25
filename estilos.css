@@ -21,7 +21,7 @@ header{
     
 }
 header h4{
-    
+    color: white;
     align-items: center;
     margin: 5px 0px 5px 0px;
     padding: 5px 12px;
@@ -44,7 +44,7 @@ header h4{
     padding-bottom: 10px;
 }
 
-.container {
+        .container {
     width: 100vw;
     max-width: 1336px;
     min-width: 320px;
@@ -60,14 +60,23 @@ header h4{
 
 
 #AcercaDe{
+    display: flex;
+    flex-direction: column;
     margin:15px;
     padding: 5px;
     padding-top: 40px;
+    
 }
 
-#Educacion{
-    margin-top: 24px;
-    margin-bottom: 24px;
+
+#AcercaDe img{
+    margin: 0;
+}
+
+#Educacion {
+    margin: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
